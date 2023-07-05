@@ -100,12 +100,12 @@ const AboutUploader = () => {
         {listOfAbout.length === 0 && (
           <>
             <h1>A propose de moi</h1>
-            <p>
+            <p className="text-justify">
               Ancien Ingénieur qualité, je me suis reconverti dans le
-              developpement WEB en 2020. <br /> J'ai suivi une formation de 6
-              mois à la Wild Code School de La Loupe. <br /> J'ai pu y apprendre
-              les bases du developpement WEB dont le developpement Front-end.{" "}
-              <br />
+              developpement WEB en mars 2022. <br /> J'ai suivi une formation de
+              6 mois à la Wild Code School de La Loupe. <br /> J'ai pu y
+              apprendre les bases du developpement WEB dont le developpement
+              Front-end. <br />
               J'ai pu y apprendre les languages HTML, CSS, Javascript et React.{" "}
               <br />
               Mais aussi le developpement Back-end avec Node.js et Express.js.{" "}
@@ -117,6 +117,13 @@ const AboutUploader = () => {
               J'ai pu y apprendre à travailler en autonomie sur des projets
               personnels. <br />
               J'ai pu y apprendre à apprendre.
+            </p>
+            <p className="text-justify">
+              J'ai ensuite effectué un stage pour le site "partirauvert.com"
+            </p>
+            <p className="text-justify">
+              Je me suis ensuite formé au développement jeux vidéos avec Unity
+              et C#.
             </p>
           </>
         )}
