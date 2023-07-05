@@ -64,7 +64,7 @@ const AboutUploader = () => {
   };
 
   return (
-    <div className="text-center">
+    <div className="d-flex aligns-items-center justify-content-center">
       {user && (
         <>
           <h1>About Uploader</h1>
@@ -130,8 +130,8 @@ const AboutUploader = () => {
         {listOfAbout.map((about) => {
           return (
             <div key={about._id}>
-              <h1>{about.title}</h1>
-              <p>{about.description}</p>
+              <h1 className="text-md-left">{about.title}</h1>
+              <p className="text-md-left">{about.description}</p>
               {user && (
                 <button
                   className="btn btn-danger"
