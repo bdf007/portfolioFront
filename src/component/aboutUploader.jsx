@@ -102,15 +102,21 @@ const AboutUploader = () => {
             <h1>A propose de moi</h1>
             <p>
               Ancien Ingénieur qualité, je me suis reconverti dans le
-              developpement WEB en 2020. J'ai suivi une formation de 6 mois à la
-              Wild Code School de La Loupe. J'ai pu y apprendre les bases du
-              developpement WEB dont le developpement Front-end. J'ai pu y
-              apprendre les languages HTML, CSS, Javascript et React. Mais aussi
-              le developpement Back-end avec Node.js et Express.js. J'ai pu y
-              apprendre à utiliser des outils comme Git, Github, Trello, Slack,
-              Figma. J'ai pu y apprendre à travailler en équipe sur des projets
-              concrets. J'ai pu y apprendre à travailler en autonomie sur des
-              projets personnels. J'ai pu y apprendre à apprendre.
+              developpement WEB en 2020. <br /> J'ai suivi une formation de 6
+              mois à la Wild Code School de La Loupe. <br /> J'ai pu y apprendre
+              les bases du developpement WEB dont le developpement Front-end.{" "}
+              <br />
+              J'ai pu y apprendre les languages HTML, CSS, Javascript et React.{" "}
+              <br />
+              Mais aussi le developpement Back-end avec Node.js et Express.js.{" "}
+              <br />
+              J'ai pu y apprendre à utiliser des outils comme Git, Github,
+              Trello, Slack, Figma. <br />
+              J'ai pu y apprendre à travailler en équipe sur des projets
+              concrets. <br />
+              J'ai pu y apprendre à travailler en autonomie sur des projets
+              personnels. <br />
+              J'ai pu y apprendre à apprendre.
             </p>
           </>
         )}
