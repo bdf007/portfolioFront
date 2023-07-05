@@ -150,7 +150,11 @@ const CertificateUploader = () => {
       <div>
         <h1>Diploma and Certificate</h1>
         <div className="row row-cols-1 row-cols-md-4 g-4">
-          {listOfcertificates.length === 0 && <h1>No certificates</h1>}
+          {listOfcertificates.length === 0 && (
+            <div className="text-center">
+              <h1>No certificate uploaded yet</h1>
+            </div>
+          )}
           {listOfcertificates.map((certificate) => {
             return (
               <div key={certificate._id}>
