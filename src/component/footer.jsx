@@ -5,8 +5,8 @@ import "../App.css";
 const Footer = () => {
   return (
     <footer className="footer-bs bg-primary ">
-      <div className="row ">
-        <div className="footer-brand float-right ">
+      <div className="row pe-0 ps-0 me-0 ms-0">
+        <div className="footer-brand ">
           <ul className="ms-auto list-inline d-flex justify-content-around">
             <li className="nav-item list-inline-item">
               <Link className="nav-link" to="/">

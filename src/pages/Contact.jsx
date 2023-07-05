@@ -87,7 +87,7 @@ const Contact = () => {
   };
 
   return (
-    <div className=" row d-flex justify-content-center">
+    <div className=" row d-flex justify-content-center ms-0 me-0">
       <div className="container mt-5 mb-5 col-10 col-sm-8 col-md-6 col-lg-5 ">
         <h1>Contact page</h1>
         {user ? (
