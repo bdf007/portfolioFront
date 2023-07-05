@@ -64,7 +64,7 @@ const AboutUploader = () => {
   };
 
   return (
-    <div>
+    <div className="text-center">
       {user && (
         <>
           <h1>About Uploader</h1>
