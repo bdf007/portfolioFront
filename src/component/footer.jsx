@@ -39,6 +39,7 @@ const Footer = () => {
               </Link>
             </li>
           </ul>
+          <p>site réalisé avec MongoDB, Express, React, NodeJS</p>
           <p>© 2023, All rights reserved</p>
         </div>
       </div>

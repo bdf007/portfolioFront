@@ -99,8 +99,8 @@ const AboutUploader = () => {
       <div>
         {listOfAbout.length === 0 && (
           <>
-            <h1>A propose de moi</h1>
-            <p className="text-justify">
+            <h1>A propos de moi</h1>
+            <p className="text-md-left">
               Ancien Ingénieur qualité, je me suis reconverti dans le
               developpement WEB en mars 2022. <br /> J'ai suivi une formation de
               6 mois à la Wild Code School de La Loupe. <br /> J'ai pu y
@@ -118,10 +118,10 @@ const AboutUploader = () => {
               personnels. <br />
               J'ai pu y apprendre à apprendre.
             </p>
-            <p className="text-justify">
+            <p className="text-md-left">
               J'ai ensuite effectué un stage pour le site "partirauvert.com"
             </p>
-            <p className="text-justify">
+            <p className="text-md-left">
               Je me suis ensuite formé au développement jeux vidéos avec Unity
               et C#.
             </p>
