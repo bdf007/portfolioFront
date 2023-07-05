@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer-bs bg-primary ">
       <div className="row ">
         <div className="footer-brand float-right ">
-          <ul className="ms-auto list-inline d-flex justify-content-between">
+          <ul className="ms-auto list-inline d-flex justify-content-around">
             <li className="nav-item list-inline-item">
               <Link className="nav-link" to="/">
                 Home
